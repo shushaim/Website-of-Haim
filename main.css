@@ -1,0 +1,306 @@
+/**********************
+GENERAL
+**********************/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: cornsilk;
+}
+
+#wrapper {
+  max-width: 100%;
+  padding: 1%;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  text-align: center;
+}
+
+
+/**********************
+HEADER
+**********************/
+
+header {
+  background-color: darkseagreen;
+  padding-top: 10px;
+}
+
+#logo {
+  text-align: center;
+  color: cornsilk;
+  text-shadow: 3px 3px #000; 
+}
+
+#logo:visited {
+  color: cornsilk;
+}
+
+
+/**********************
+NAV
+**********************/
+
+nav ul {
+  text-align: center;
+  padding: 2px 0px 0px 0px;
+  background-color: #229922;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #446666;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #446666;
+  
+}
+nav li {
+  display: inline-block;
+  padding: 2%;
+}
+
+/* color for nav links */
+
+nav a, nav a:visited {
+  color: #555; 
+  font-weight: 800;
+}
+
+nav a.selected, nav a:hover {
+  color: #000; 
+  font-weight: 1000;
+}
+
+
+/**********************
+Body
+**********************/
+
+#pic-me {
+  max-width: 25%;
+  margin-left: 37.5%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #228811;
+  border-radius: 40%;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  text-align: center;
+}
+
+#tritionary {
+  margin-bottom: 30px;
+}
+
+
+#rev {
+  
+  font-size: 0.8em;
+  background-color: #22b112;
+  
+}
+ 
+
+
+/**********************
+Revision Page
+**********************/
+
+
+
+table {
+  text-align: center;
+  width: 80%;
+  
+  margin: 0px 15%;
+}
+
+   
+   
+   
+/* for screens bigger than 950px */
+
+@media screen and (min-width: 950px) {
+  
+    #pic-me {
+     margin-left: 7.5%; 
+    }
+
+ 
+  }
+
+  ul li {
+    padding: 4px;
+  }
+}
+
+
+
+/*color for in-text links*/
+  
+p a:visited {
+  color: blue;
+}
+
+p a:hover {
+  font-weight: bold;
+}
+
+
+/**********************
+SOCIAL-ICONS
+**********************/
+
+#social-icons {
+  max-width: 100%;
+  margin-top: 40px;
+  text-align: center;
+}
+
+#social-icons-index {
+  max-width: 100%;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.social-icon {
+  max-width: 30px;
+  padding: 6px;
+  margin: 0 auto;
+}
+
+/* for screens bigger than 950px */
+
+@media screen and (min-width: 950px) {
+
+  #social-icons-index {
+    margin: -250px 0 0 0;
+    padding-right: 15%;
+    float: right
+  }
+}
+
+
+/**********************
+FOOTER
+**********************/
+
+footer {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+footer a {
+  padding: 5px;
+}
+
+/* for screens bigger than 950px */
+
+@media screen and (min-width: 950px) {
+
+  #footer-index {
+    margin: -300px 0 0 0;
+    padding-right: 12%;
+    float: right
+  }
+}
+
+
+
+
+/**********************
+PAGE: MILITARY
+**********************/
+
+#main-text {
+  padding: 1%;
+}
+
+#pic1 {
+  max-width: 45%;
+  margin-left: 27.5%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #228811;
+  border-radius: 10%;
+  box-shadow: 8px 8px 10px #228844; 
+}
+  
+/* for screens bigger than 950px */
+@media screen and (min-width: 950px) {
+
+   #main-text {
+    padding-right: 7%;
+    padding-left: 7%;
+  }
+
+  #secondary-text {
+    padding-right: 7%;
+    padding-left: 7%;
+  }
+}
+
+/* for screens bigger than 1200px */
+@media screen and (min-width: 1200px) {
+
+   #main-text {
+    padding-right: 15%;
+    padding-left: 15%;
+  }
+
+  #secondary-text {
+    padding-right: 15%;
+    padding-left: 15%;
+  }
+}
+
+/* for screens bigger than 1500px */
+@media screen and (min-width: 1500px) {
+
+   #main-text {
+    padding-right: 19%;
+    padding-left: 19%;
+  }
+
+  #secondary-text {
+    padding-right: 19%;
+    padding-left: 19%;
+  }
+}
+
+
+
+
+/**********************
+BUTTON
+**********************/
+
+button {
+  background: #dae1e4;
+  border: none;
+  border-radius: 5px;
+  color: #1d3c6a;
+  font-size: 24px;
+  width: 70%;
+  padding: 20px 20px;
+  margin: 5% 5%;
+  outline: none;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
